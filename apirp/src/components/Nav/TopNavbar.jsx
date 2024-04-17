@@ -32,47 +32,47 @@ export default function TopNavbar() {
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <a href="home" activeclass="active" style={{ padding: "10px 15px" }}>
+              <a href="home" style={{ padding: "10px 15px" }}>
                 Accueil
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Forum" activeclass="active" style={{ padding: "10px 15px" }}>
+              <a href="Forum"  style={{ padding: "10px 15px" }}>
                 Forum
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Activités" activeclass="active" style={{ padding: "10px 15px" }}>
+              <a href="Activités"  style={{ padding: "10px 15px" }}>
                 Activités
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Contact" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="Contact"  style={{ padding: "10px 15px" }}>
                 Nous connaître
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="pricing" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="pricing"  style={{ padding: "10px 15px" }}>
                 Adhérer
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Promouvoir" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="Promouvoir"  style={{ padding: "10px 15px" }}>
                 Promouvoir
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="contact" style={{ padding: "10px 15px" }}>
                 Apprendre
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="contact"  style={{ padding: "10px 15px" }}>
                 Enseigner
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" activeClass="active" style={{ padding: "10px 15px" }}>
+              <a href="contact"  style={{ padding: "10px 15px" }}>
                 Divers
               </a>
             </li>
