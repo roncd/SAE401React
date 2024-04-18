@@ -4,7 +4,7 @@ import styled from "styled-components";
 import BlogBox from "../Elements/BlogBox";
 import FullButton from "../Buttons/FullButton";
 //Assets
-import HeaderImage from "../../assets/img/Activités/Header-Activités.jpg";
+//import HeaderImage from "../../assets/img/Activités/Header-Activités.jpg";
 
 export function HeaderActivités() {
   return (
@@ -23,7 +23,7 @@ export function HeaderActivités() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
+          {/*<Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />*/}
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
@@ -198,9 +198,9 @@ const ImageWrapper = styled.div`
     justify-content: center;
   }
 `;
-const Img = styled.img`
+/*const Img = styled.img`
   @media (max-width: 560px) {
     width: 80%;
     height: auto;
   }
-`;
+`;*/
