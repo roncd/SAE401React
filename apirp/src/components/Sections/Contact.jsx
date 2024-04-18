@@ -24,7 +24,7 @@ export function Contact() {
           <br />
           Pour les renouvellement d’adhésion et pour les commandes de plaquettes pour la promotion de l’italien, nos adhérents peuvent aussi se servir des formulaires publiés dans les deux dernières page de notre bulletin annuel.</HeaderP>
           <h3>Mail : apirp.association@gmail.com</h3><br />
-          <h3>Suivez nous sur <a  href="https://m.facebook.com/APIRP/" target="_blank" className="darkColor">Facebook</a> !</h3>
+          <h3>Suivez nous sur <a  href="https://m.facebook.com/APIRP/"  className="darkColor">Facebook</a> !</h3>
         </div>
       </LeftSide>
       <RightSide>
