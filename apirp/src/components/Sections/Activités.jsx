@@ -7,6 +7,7 @@ import FullButton from "../Buttons/FullButton";
 import HeaderImage from "../../assets/img/Activites/Header-Activites.jpg";
 
 export function HeaderActivités() {
+
   return (
     <HeaderWrapper className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
@@ -14,10 +15,10 @@ export function HeaderActivités() {
         <h1 className="extraBold font60">
           <span className="darkColor">Activités</span> culutrelles
         </h1>
-          <HeaderP className="font15 semiBold">
-          Explorez la richesse culturelle italienne : concerts envoûtants, expositions captivantes, et littérature inspirante !     </HeaderP>
+          <HeaderP className="font15">
+          Bienvenue sur notre page activités culturelles. Explorez la richesse culturelle italienne : concerts envoûtants, expositions captivantes, et littérature inspirante !     </HeaderP>
           <BtnWrapper>
-            <FullButton title="Voir Plus" />
+            <FullButton title="Voir Plus"/>
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -25,7 +26,7 @@ export function HeaderActivités() {
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
+      
       </RightSide>
     </HeaderWrapper>
   );

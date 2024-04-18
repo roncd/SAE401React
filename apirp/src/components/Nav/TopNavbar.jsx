@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+
 // Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -24,7 +25,7 @@ export default function TopNavbar() {
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <a href="home" className="pointer flexNullCenter">
+          <a href="/accueil" className="pointer flexNullCenter">
             <LogoIcon />
           </a>
           <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
@@ -32,17 +33,17 @@ export default function TopNavbar() {
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <a href="home" style={{ padding: "10px 15px" }}>
+              <a href="/accueil" style={{ padding: "10px 15px" }}>
                 Accueil
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Forum"  style={{ padding: "10px 15px" }}>
+              <a href="Forum" style={{ padding: "10px 15px" }}>
                 Forum
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="Activités"  style={{ padding: "10px 15px" }}>
+              <a href="Activités" style={{ padding: "10px 15px" }}>
                 Activités
               </a>
             </li>
@@ -52,7 +53,7 @@ export default function TopNavbar() {
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="pricing"  style={{ padding: "10px 15px" }}>
+              <a href="/adherer"  style={{ padding: "10px 15px" }}>
                 Adhérer
               </a>
             </li>
@@ -62,17 +63,17 @@ export default function TopNavbar() {
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" style={{ padding: "10px 15px" }}>
+              <a href="/apprendre"  style={{ padding: "10px 15px" }}>
                 Apprendre
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact"  style={{ padding: "10px 15px" }}>
+              <a href="/enseigner"  style={{ padding: "10px 15px" }}>
                 Enseigner
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact"  style={{ padding: "10px 15px" }}>
+              <a href="/divers"  style={{ padding: "10px 15px" }}>
                 Divers
               </a>
             </li>

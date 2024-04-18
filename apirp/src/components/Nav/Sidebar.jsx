@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
 import LogoIcon from "../../assets/svg/Logo";
@@ -21,7 +22,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
 
       <UlStyle className="flexNullCenter flexColumn">
             <li className="semiBold font15 pointer">
-              <a href="home" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
+              <a href="/accueil" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
                 Accueil
               </a>
             </li>
@@ -41,7 +42,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="pricing" 
+              <a href="/adherer" 
               onClick={() => toggleSidebar(!sidebarOpen)} 
               style={{ padding: "10px 15px" }}>
                 Adhérer
@@ -53,17 +54,17 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
+              <a href="/apprendre" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
                 Apprendre
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
+              <a href="/enseigner" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
                 Enseigner
               </a>
             </li>
             <li className="semiBold font15 pointer">
-              <a href="contact" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
+              <a href="/divers" onClick={() => toggleSidebar(!sidebarOpen)} style={{ padding: "10px 15px" }}>
                 Divers
               </a>
             </li>

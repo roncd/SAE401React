@@ -31,7 +31,7 @@ export function Contact() {
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
+       
       </RightSide>
     </HeaderWrapper>
   );

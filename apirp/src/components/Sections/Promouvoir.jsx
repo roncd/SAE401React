@@ -15,8 +15,8 @@ export function HeaderPromouvoir() {
         <h1 className="extraBold font60">
           <span className="darkColor">Promouvoir</span> l'italien
         </h1>
-          <HeaderP className="font15 semiBold">
-          Dans le paysage culturel et linguistique mondial, la langue italienne brille de sa propre lumière. Au cœur de cette vitalité linguistique se trouve l'engagement passionné de notre association dévouées à sa promotion.</HeaderP>
+          <HeaderP className="font15">
+          Bienvenue sur notre page promouvoir l'italien. Dans le paysage culturel et linguistique mondial, la langue italienne brille de sa propre lumière. Au cœur de cette vitalité linguistique se trouve l'engagement passionné de notre association dévouées à sa promotion.</HeaderP>
           <BtnWrapper>
             <FullButton title="Voir Plus" />
           </BtnWrapper>
@@ -26,7 +26,7 @@ export function HeaderPromouvoir() {
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
+ 
       </RightSide>
     </HeaderWrapper>
   );
@@ -161,7 +161,7 @@ export function Promouvoir() {
             <h4 className="font15">Réponses au Quizz de la plaquette</h4>
             <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
                   <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton title="Les Réponses"  action={() => window.open('https://drive.google.com/file/d/0B34j4qalEtJsd2psVS1tN3plaFU/view?resourcekey=0-nlUxtG1Hf7kOX6BhtZuY2w', '_blank')}  />
+                    <button className="button1" onClick={() => window.open('https://drive.google.com/file/d/0B34j4qalEtJsd2psVS1tN3plaFU/view?resourcekey=0-nlUxtG1Hf7kOX6BhtZuY2w', '_blank')}> Les réponses </button>
                   </div>
             </ButtonsRow>
           </HeaderInfo>

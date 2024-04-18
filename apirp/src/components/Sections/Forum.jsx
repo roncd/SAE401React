@@ -18,8 +18,8 @@ export function HeaderForum() {
         <h1 className="extraBold font60">
           <span className="darkColor">Forum</span> des associations franco-italiennes
         </h1>
-          <HeaderP className="font15 semiBold">
-            Découvrez le prochain forum des associations franco-italiennes et son programme.
+          <HeaderP className="font15">
+            Bienvenue sur notre page forum des associastions. Découvrez le prochain forum des associations franco-italiennes et son programme.
           </HeaderP>
           <BtnWrapper>
             <FullButton title="Voir Plus" />
@@ -30,7 +30,7 @@ export function HeaderForum() {
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
+       
       </RightSide>
     </HeaderWrapper>
   );
